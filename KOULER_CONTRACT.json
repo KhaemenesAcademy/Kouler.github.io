@@ -1,0 +1,31 @@
+{
+  "schema": "stos-sovereign-tool-contract-v1",
+  "tool": "Kouler",
+  "version": "0.1.0-source",
+  "classification": "bounded-atomic-replacement-caller",
+  "authority": "ABBY",
+  "runtime_dependencies": [
+    "ABBY"
+  ],
+  "network_dependency": false,
+  "host_utility_dependency": false,
+  "auto_activation": false,
+  "auto_mutation": false,
+  "profile": {
+    "id": "main-directory-recovery-20261005",
+    "scope_id": "xkyoot.static",
+    "relative_object": "ui/mini-cloud.html",
+    "operation": "remove-exact-certified-tree-suppression",
+    "expected_occurrences": 1,
+    "preserve_v5_inert": true,
+    "preserve_directory_endpoint": true
+  },
+  "forbidden": [
+    "arbitrary-target-mode",
+    "shell-overwrite",
+    "directory-migration",
+    "v5-activation",
+    "gaffer-change",
+    "terminal-activation"
+  ]
+}
